@@ -10,6 +10,7 @@
     --rosa: #cd569a;
     --cinza: #5a595e;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -68,7 +69,7 @@ header nav a:hover {
     font-size: 18px;
     border-top: 2px solid white;
 
-    background-image: url(img\cover.jpg);
+    background-image: url(../img/cover.jpg);
     height: 70vh;
     background-size: cover;
     background-position: center;
