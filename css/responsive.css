@@ -1,0 +1,40 @@
+@media screen and (max-width: 680px) {
+    header .container { 
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav {
+        padding-top: 10px;
+    }
+
+    header nav a {
+        margin: 0 5px;
+    }
+
+    .principal .container {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .principal .container {
+        width: 85%;
+        background-color: rgba(255,255,255,.7);
+    }
+
+    .principal .title {
+        padding-top: 10px;
+        font-size: 32px;
+        line-height: 30px;
+    }
+
+    .principal .subtitle {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .principal .botao {
+        padding: 10px 10px;
+    }
+}
